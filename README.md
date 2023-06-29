@@ -15,7 +15,7 @@ This project is an e-commerce website built with Django. It allows users to brow
 - forms.py: Contains forms for user creation and product ordering.
 - utils.py: Contains utility functions used across the application.
 - models.py: Contains the models for Customer, Product, Order, OrderItem, and ShippingAddress.
-- templates/store: Contains the HTML templates for the application, including main.html, cart.html, store.html, view_item.html, login.html, - signup.html, and home.html.
+- templates/store: Contains the HTML templates for the application, including main.html, cart.html, store.html, view_item.html, login.html, signup.html, and home.html.
 - static: This directory contains static files such as CSS, JavaScript, and images used across the application.
 - css: Contains CSS files.
 - images: Contains image files.
@@ -36,12 +36,11 @@ pip install -r requirements.txt
 
 ### Make migrations:
 
-
-python manage.py makemigrations
+'python manage.py makemigrations
 
 ### Migrate the database:
 
-python manage.py migrate
+'python manage.py migrate'
 
 ### Run the server:
 
