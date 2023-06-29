@@ -36,11 +36,15 @@ pip install -r requirements.txt
 
 ### Make migrations:
 
-'''python manage.py makemigrations'''
+python manage.py makemigrations
 
 ### Migrate the database:
 
-'python manage.py migrate'
+python manage.py migrate
+
+```
+python manage.py makemigrations
+```
 
 ### Run the server:
 
