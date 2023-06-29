@@ -1,0 +1,24 @@
+{% extends "store/main.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ item.imageURL }}" alt="{{ item.name }}" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h2>{{ item.name }}</h2>
+            <p>{{ item.description }}</p>
+            <h4>Price: ${{ item.price }}</h4>
+            {% if not item.digital %}
+                <p><strong>Note:</strong> This product requires shipping.</p>
+            {% endif %}
+            <button data-product="{{item.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
