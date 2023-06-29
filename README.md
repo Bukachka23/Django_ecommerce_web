@@ -27,29 +27,25 @@ This project is an e-commerce website built with Django. It allows users to brow
 ## Installation
 
 ### Clone this repository:
-
+```
 git clone https://github.com/username/projectname.git
-
+```
 ### Install the required packages:
-
+```
 pip install -r requirements.txt
-
+```
 ### Make migrations:
-
+```
 python manage.py makemigrations
-
+```
 ### Migrate the database:
-
+```
 python manage.py migrate
-
 ```
-python manage.py makemigrations
-```
-
 ### Run the server:
-
+```
 python manage.py runserver
-
+```
 The server will start at localhost:8000.
 
 ## Contributing
